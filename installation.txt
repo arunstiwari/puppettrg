@@ -1,0 +1,10 @@
+sudo yum install -y  http://yum.puppetlabs.com/puppetlabs-release-pc1-el-7.noarch.rpm
+
+sudo yum repolist
+
+sudo yum install -y puppet-agent
+
+ls -la /opt/puppetlabs/bin/
+
+
+puppet agent --test --server=puppet.example.com
